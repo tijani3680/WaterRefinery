@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tijani.waterrefineryshirzadproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+        <activity android:name=".ActivityAboutWe"></activity>
+        <activity android:name=".ActivitySplashForGetDataTabsKarkardBoloerVaPomp" />
+        <activity android:name=".ActivityShowDetailsTabPomp" />
+        <activity android:name=".ActivityShowDetailsTabBoloer" />
+        <activity android:name=".ActivityShowListKarkardBoloerVaPomp" />
+        <activity android:name=".ActivityPomps" />
+        <activity android:name=".ActivityBoloers" />
+        <activity android:name=".ActivityKarkardMahanehBoloersVaIstgahPomPazh" />
+        <activity android:name=".ActivityShowDetailsTabBazsaziVaNosazi" />
+        <activity android:name=".ActivitySplashForGetDataTabsRangAmiziVaBazsaziVaNosazi" />
+        <activity android:name=".ActivityShowDetailsTabRangAmizi" />
+        <activity android:name=".ActivityShowListRangAmiziVaBazsaziVaNosazi" />
+        <activity android:name=".ActivityBazsaziVaNosazi" />
+        <activity android:name=".ActivityRangAmizi" />
+        <activity android:name=".ActivityBazsaziVaRangAmizi" />
+        <activity android:name=".ActivityShowDetailsTabTajhizatMotavaqef" />
+        <activity android:name=".ActivityShowDetailsTabQateeBarq" />
+        <activity android:name=".ActivityShowDetailsTabHavades" />
+        <activity android:name=".ActivityTajhizatMotavaqef" />
+        <activity android:name=".ActivityQateeBarq" />
+        <activity android:name=".ActivitySplashForGetDataTabsHavadesVaQateeBarq" />
+        <activity android:name=".ActivityShowListHavadesVaQateeBarq" />
+        <activity android:name=".ActivityHavades" />
+        <activity android:name=".ActivityHavadesVaQateeBarq" />
+        <activity android:name=".ActivitySplashForGetNegahdariVaTamirTajhizatMekaniki" />
+        <activity android:name=".ActivityShowDetilsNegahdariVaTamirTajhizatMekaniki" />
+        <activity android:name=".ActivityShowListNegahdariVaTamiratTajhizatMekaniki" />
+        <activity android:name=".ActivityNegahdariVaTamiratTajhizatMekaniki" />
+        <activity android:name=".ActivitySplashForGetNegahdariVaTamirBarq" />
+        <activity android:name=".ActivityShowDetilsNegahdariVaTamirBarq" />
+        <activity android:name=".ActivityShowListNegahdariVaTamiratBarq" />
+        <activity android:name=".ActivityNegahdariVaTamiratBarq" />
+        <activity android:name=".ActivitySplashForGetGandZodaye" />
+        <activity android:name=".ActivityShowDetilsGandZodaye" />
+        <activity android:name=".ActivityShowListGandZodae" />
+        <activity android:name=".ActivityGandZodae" />
+        <activity android:name=".ActivityShowDetilsMaqadirLajan" />
+        <activity android:name=".ActivitySplashForGetMaqadirLajan" />
+        <activity android:name=".ActivityShowListMaqadirLajan" />
+        <activity android:name=".ActivityMaqadirLajan" />
+        <activity android:name=".ActivityShowDetilsAverageResult" />
+        <activity android:name=".ActivitySplashForGetAverageResultData" />
+        <activity android:name=".ActivityShowListAverageResult" />
+        <activity android:name=".ActivityAverageResult" />
+        <activity android:name=".ActivityHosnBahrehBardary" />
+        <activity android:name=".ActivityShowDetilsGozareshat" />
+        <activity android:name=".ActivitySplashForGetGozareshatData" />
+        <activity android:name=".ActivityShowListGozareshat" />
+        <activity android:name=".ActivityGozareshat" />
+        <activity android:name=".ActivityShowDetilsShekayat" />
+        <activity android:name=".ActivitySplashForGetShekayatData" />
+        <activity android:name=".ActivityShowListShekayat" />
+        <activity android:name=".ActivityShekayat" />
+        <activity android:name=".ActivityShowDetilsEdaryLaters" />
+        <activity android:name=".ActivityShowListEdaryLaters" />
+        <activity android:name=".ActivitySplashForGetEdariLaterData" />
+        <activity android:name=".ActivityEdaryLater" />
+        <activity android:name=".ActivityUserSignUp" />
+        <activity android:name=".ActivityUserSignIn" />
+        <activity android:name=".ActivitySplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
